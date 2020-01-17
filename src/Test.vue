@@ -6,12 +6,8 @@
 
 <script>
 export default {
-    name: 'Text',
-    data () {
-        return {
-            text: "Hello World!"
-        }
-    }
+    name: 'test',
+    props: ['text']
 }
 </script>
 
