@@ -1,10 +1,12 @@
 <template>
-    <p id="text">{{ text }}</p>
+    <div id="test">
+        <p id="text">{{ text }}</p>
+    </div>
 </template>
 
 <script>
 export default {
-    name: 'text',
+    name: 'Text',
     data () {
         return {
             text: "Hello World!"
@@ -14,7 +16,7 @@ export default {
 </script>
 
 <style lang="scss">
-    .text {
+    #text {
         color: blue
     }
 </style>
