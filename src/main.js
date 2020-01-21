@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
+import TestPage from './components/TestPage.vue'
 import VueRouter from 'vue-router'
 
 Vue.use(VueRouter)
@@ -15,6 +16,13 @@ const router = new VueRouter({
 
 new Vue({
   router,
-  el: '#app',
-  render: h => h(App)
+  template: `
+    <div id="app">
+      <router-link class="navbar-link" to="/">Home</router-link>
+      <router-link class="navbar-link" to="/test">Test Page</router-link>
+      <router-view></router-view>
+    </div>
+  `,
+  el: '#app'
+  // render: h => h(App)
 })

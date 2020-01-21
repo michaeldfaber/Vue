@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <navbar></navbar>
     <Hero image="src\assets\clouds.jpeg" alt="Landscape with sun and clouds" />
     <div id="title">{{ title }}</div>
     <div class="text">{{ firstparagraph }}</div>
@@ -10,13 +9,12 @@
 </template>
 
 <script>
-import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
 
 export default {
   name: 'app',
   components: {
-    Navbar, Hero
+    Hero
   },
   data () {
     return {
