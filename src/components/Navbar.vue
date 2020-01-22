@@ -1,7 +1,7 @@
 <template>
     <div id="navbar">
         <router-link class="navbar-link" to="/">Home</router-link>
-        <router-link class="navbar-link" to="/test">Test Page</router-link>
+        <router-link class="navbar-link" to="/test">Random Person</router-link>
     </div>
 </template>
 
@@ -35,4 +35,4 @@ export default {
     margin-right: 10px;
 }
 
-</style>
+</style> 

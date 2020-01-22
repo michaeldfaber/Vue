@@ -1,5 +1,5 @@
 <template>
-    <div id="testpage">
+    <div id="randomperson">
         <h1>Hello World! This is a page to test routing.</h1>
     </div>
 </template>

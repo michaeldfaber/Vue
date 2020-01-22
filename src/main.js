@@ -2,7 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import App from './App.vue'
 import Home from './pages/Home.vue'
-import TestPage from './pages/TestPage.vue'
+import RandomPerson from './pages/RandomPerson.vue'
 
 Vue.use(VueRouter)
 
@@ -11,7 +11,7 @@ const router = new VueRouter({
   base: __dirname,
   routes: [
     { path: '/', component: Home },
-    { path: '/test', component: TestPage }
+    { path: '/test', component: RandomPerson }
   ]
 })
 
