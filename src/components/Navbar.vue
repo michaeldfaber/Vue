@@ -1,7 +1,7 @@
 <template>
-    <div id="navbar">
+    <div class="navbar">
         <router-link class="navbar-link" to="/">Home</router-link>
-        <router-link class="navbar-link" to="/test">Random Person</router-link>
+        <router-link class="navbar-link" to="/randomPerson">Random Person</router-link>
     </div>
 </template>
 
@@ -11,9 +11,9 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
 
-#navbar {
+.navbar {
     width: 60%;
     height: 50px;
 }
@@ -25,14 +25,6 @@ export default {
     margin-right: 10px;
     margin-bottom: 5px;
     margin-top: 10px;
-}
-
-#logo {
-    display:block;
-    float:left;
-    height: 35px;
-    margin-top: 7px;
-    margin-right: 10px;
 }
 
 </style> 

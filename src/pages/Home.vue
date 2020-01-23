@@ -1,7 +1,7 @@
 <template>
-  <div id="app">
+  <div>
     <Hero image="src\assets\clouds.jpeg" alt="Landscape with sun and clouds" />
-    <div id="title">{{ title }}</div>
+    <div class="title">{{ title }}</div>
     <div class="text">{{ firstparagraph }}</div>
     <div class="text">{{ secondparagraph }}</div>
     <div class="text">{{ thirdparagraph }}</div>
@@ -27,26 +27,9 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
 
-html, body {
-  margin: 0px !important;
-  padding: 0px !important;
-}
-
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  font-size: 1.25rem;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin: 0 auto;
-  margin-bottom: 200px;
-  padding: 0px;
-}
-
-#title {
+.title {
   margin-top: 45px;
   margin-bottom: 30px;
   font-size: 3.75rem;

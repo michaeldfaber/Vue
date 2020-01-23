@@ -1,6 +1,6 @@
 <template>
-    <div id="hero">
-        <img id="image" :src="image" :alt="alt">
+    <div class="hero">
+        <img class="image" :src="image" :alt="alt">
     </div>
 </template>
 
@@ -12,14 +12,14 @@ export default {
 
 <style scoped lang="scss">
 
-#hero {
+.hero {
     width: 100%;
     margin: 0 auto;
     padding: 0px;
     align-content: center;
 }
 
-#image {
+.image {
     width: 100%;
     height: 600px;
     object-fit: cover;

@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="app-container">
       <Navbar />
       <router-view></router-view>
     </div>
@@ -17,11 +17,18 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
 
-html, body {
-  margin: 0px !important;
-  padding: 0px !important;
+.app-container {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-size: 1.25rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin: 0 auto;
+  margin-bottom: 200px;
+  padding: 0px;
 }
 
 </style>
